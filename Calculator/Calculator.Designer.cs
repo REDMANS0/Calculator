@@ -36,6 +36,7 @@ namespace Calculator
 			this.ButtonBracketOpen = new System.Windows.Forms.Button();
 			this.ButtonBracketClose = new System.Windows.Forms.Button();
 			this.ButtonDelete = new System.Windows.Forms.Button();
+			this.ButtonBackspace = new System.Windows.Forms.Button();
 			this.ButtonDivide = new System.Windows.Forms.Button();
 			this.ButtonMultiply = new System.Windows.Forms.Button();
 			this.ButtonPlus = new System.Windows.Forms.Button();
@@ -53,7 +54,6 @@ namespace Calculator
 			this.Number0 = new System.Windows.Forms.Button();
 			this.ButtonNumberMinus = new System.Windows.Forms.Button();
 			this.Equation = new System.Windows.Forms.Label();
-			this.ButtonBackspace = new System.Windows.Forms.Button();
 			this.Background.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -99,6 +99,7 @@ namespace Calculator
 			this.Answer.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
 			this.Answer.Size = new System.Drawing.Size(319, 54);
 			this.Answer.TabIndex = 0;
+			this.Answer.Text = "test";
 			this.Answer.TextAlign = System.Drawing.ContentAlignment.BottomRight;
 			// 
 			// ButtonMinus
@@ -156,6 +157,20 @@ namespace Calculator
 			this.ButtonDelete.Text = "C";
 			this.ButtonDelete.UseVisualStyleBackColor = true;
 			this.ButtonDelete.Click += new System.EventHandler(this.ButtonDelete_Click);
+			// 
+			// ButtonBackspace
+			// 
+			this.ButtonBackspace.FlatAppearance.BorderSize = 0;
+			this.ButtonBackspace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.ButtonBackspace.Font = new System.Drawing.Font("Microsoft Tai Le", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.ButtonBackspace.Image = global::Calculator.Properties.Resources.Backspace;
+			this.ButtonBackspace.Location = new System.Drawing.Point(161, 141);
+			this.ButtonBackspace.Name = "ButtonBackspace";
+			this.ButtonBackspace.Size = new System.Drawing.Size(79, 80);
+			this.ButtonBackspace.TabIndex = 0;
+			this.ButtonBackspace.TabStop = false;
+			this.ButtonBackspace.UseVisualStyleBackColor = true;
+			this.ButtonBackspace.Click += new System.EventHandler(this.ButtonBackspace_Click);
 			// 
 			// ButtonDivide
 			// 
@@ -393,20 +408,6 @@ namespace Calculator
 			this.Equation.TabIndex = 0;
 			this.Equation.TextAlign = System.Drawing.ContentAlignment.BottomRight;
 			this.Equation.TextChanged += new System.EventHandler(this.Equation_TextChanged);
-			// 
-			// ButtonBackspace
-			// 
-			this.ButtonBackspace.FlatAppearance.BorderSize = 0;
-			this.ButtonBackspace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.ButtonBackspace.Font = new System.Drawing.Font("Microsoft Tai Le", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.ButtonBackspace.Image = global::Calculator.Properties.Resources.Backspace;
-			this.ButtonBackspace.Location = new System.Drawing.Point(161, 141);
-			this.ButtonBackspace.Name = "ButtonBackspace";
-			this.ButtonBackspace.Size = new System.Drawing.Size(79, 80);
-			this.ButtonBackspace.TabIndex = 0;
-			this.ButtonBackspace.TabStop = false;
-			this.ButtonBackspace.UseVisualStyleBackColor = true;
-			this.ButtonBackspace.Click += new System.EventHandler(this.ButtonBackspace_Click);
 			// 
 			// Calculator
 			// 
