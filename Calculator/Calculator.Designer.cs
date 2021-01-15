@@ -99,7 +99,6 @@ namespace Calculator
 			this.Answer.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
 			this.Answer.Size = new System.Drawing.Size(319, 54);
 			this.Answer.TabIndex = 0;
-			this.Answer.Text = "test";
 			this.Answer.TextAlign = System.Drawing.ContentAlignment.BottomRight;
 			// 
 			// ButtonMinus
