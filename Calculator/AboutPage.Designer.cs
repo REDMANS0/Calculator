@@ -77,7 +77,6 @@ namespace Calculator
 			this.AboutText.TabIndex = 0;
 			this.AboutText.TabStop = true;
 			this.AboutText.Text = "Made by REDMANS0\r\nDone as a learning project for learning C#\r\nVersion 1.0.0.0";
-			this.AboutText.Text = "Made by REDMANS0\r\nDone as a learning project for learning C#\r\nVersion 1.0.1.2";
 			this.AboutText.TextAlign = System.Drawing.ContentAlignment.TopCenter;
 			this.AboutText.UseCompatibleTextRendering = true;
 			this.AboutText.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(255)))));
